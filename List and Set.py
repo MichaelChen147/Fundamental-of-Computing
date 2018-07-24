@@ -1,6 +1,6 @@
 Set:
 
-# Examples of Sets 2
+# Example1
 
 instructors = set(['Rixner', 'Warren', 'Greiner', 'Wong'])
 print instructors
@@ -14,3 +14,16 @@ def get_rid_of(inst_set, starting_letter):
 
 get_rid_of(instructors, 'W')
 print instructors
+
+# Example2
+
+rs = set([])
+for s in myset:
+    rs.add(s)
+myset.d_u(rs)
+
+or 
+
+for s in list(myset):
+    myset.remove(s)
+
